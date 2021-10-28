@@ -1,0 +1,164 @@
+/*--------------------------------sizing element-----------------------------*/
+
+/** {
+  box-sizing: border-box;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  border: 10px solid red;
+  margin: 50px;
+}
+
+/*--------------------------------overflowing-----------------------------*/
+*/
+/*.box {
+  border: 3px solid black;
+  width: 200px;
+  height: 200px;
+  overflow: auto;}*/
+/*--------------------------------measurement units-----------------------------*/
+/*.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-top: 3px solid orange;
+}*/
+/*.box {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  border-top: 3px solid orange;
+}*/
+/*.box {
+  width: 10em;
+  height: 10em;
+  background-color: red;
+  border-top: 3px solid orange;
+}*/
+
+/*--------------------------------positioning-----------------------------*/
+/*.boxes {
+  border: 2px solid red;
+}
+.box1 {
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid black;
+  background-color: orange;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  z-index: 99999;
+}
+.box2 {
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid black;
+  position: relative;
+  right: -5rem;
+  bottom: -5rem;
+}
+.box3 {
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid black;
+  background-color: green;
+}
+*/
+/*--------------------------------floating element-----------------------------*/
+/*.avatar {
+  width: 5%;
+  height: 5%;
+  background-color: gold;
+  float: left;
+  margin-right: 0.5rem;
+}
+.tweet {
+  border: 3px solid grey;
+}
+*/
+
+/*--------------------------------flex box-----------------------------*/
+/*body {
+  margin: 10px;
+}
+
+.main {
+  border: 3px solid grey;
+  display: flex;
+  flex-direction: row;
+   justify-content: flex-end;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 90vh;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+  margin: 1rem;
+}*/
+
+/*--------------------------------Grid-----------------------------*/
+/*body {
+  margin: 10px;
+}
+
+.container {
+  display: grid;
+  border: 3px solid green;
+  /* grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(3, 100px);
+  grid-template: repeat(3, 100px) / repeat(2, 100px); /*short hand method
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  gap: 1px;
+}
+.box {
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+}
+*/
+/*--------------------------------hiding elements-----------------------------*/
+/*.first {
+  display: none;
+}
+.first {
+  visibility: hidden;
+}
+*/
+
+/*--------------------------------media querries-----------------------------*/
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  background-color: gold;
+  padding: 1rem;
+}
+.box:nth-of-type(2) {
+  background-color: blue;
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .container {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 900px) {
+  .container {
+    flex-direction: row;
+  }
+  .box {
+    background-color: white;
+  }
+}
