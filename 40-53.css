@@ -1,0 +1,60 @@
+/*-------------------Styling form-------------------*/
+/*body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  padding: 1rem;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  display: block;
+  color: blueviolet;
+}
+input[type="text"],
+input[type="email"] {
+  border: 2px solid pink;
+  border-radius: 5px;
+  outline: 0;
+  padding: 0.5rem 0.7rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: red;
+  box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25);
+}
+button{
+    background-color: black;
+    color: red;
+    border: 1px solid pink;
+border-radius: 5px;
+outline: 0;
+padding: 0.5rem 0.7rem;
+    }
+}
+.form-group {
+  margin-bottom: 5px;
+}
+*/
+
+/*-------------------text area-------------------*/
+/*form {
+  width: 50%;
+  padding: 1rem;
+}
+textarea {
+  margin: 10px;
+  display: block;
+  resize: none;
+}
+*/
+/*-------------------text area-------------------*/
+/*#countries {
+  padding: 1rem 15rem;
+  border: 1px solid pink;
+  border-radius: 5px;
+  outline: 0;
+}*/
